@@ -1,0 +1,19 @@
+{
+  "name": "encob-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with Gemini API, Firebase and proxy messaging for Encob",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
